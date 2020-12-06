@@ -4,7 +4,7 @@ import HtmlWebpackPlugin from "html-webpack-plugin"
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin"
 import {TsconfigPathsPlugin} from "tsconfig-paths-webpack-plugin"
 
-const webpackConfig = (env): Configuration => ({
+const webpackConfig = (env: any): Configuration => ({
     entry: "./src/index.tsx",
     resolve: {
         extensions: [".ts", ".tsx", ".js"],
