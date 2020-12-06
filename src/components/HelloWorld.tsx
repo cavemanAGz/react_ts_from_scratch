@@ -9,7 +9,7 @@ const HelloWorld: React.FC = () => {
 
             <h2>Hello Caveman!</h2>
 
-            <h3>Environmental variables:</h3>
+            <h3>Environmental variables: FAKE!!!</h3>
             <p>
                 process.env.PRODUCTION: <b>{process.env.PRODUCTION.toString()}</b>
             </p>

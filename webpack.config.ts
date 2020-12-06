@@ -23,6 +23,10 @@ const webpackConfig = (env: any): Configuration => {
             rules: [
                 {
                     test: /\.tsx?$/,
+                    loader: 'babel-loader',
+                },
+                {
+                    test: /\.tsx?$/,
                     loader: "ts-loader",
                     options: {
                         transpileOnly: true
