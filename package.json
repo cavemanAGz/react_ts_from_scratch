@@ -29,14 +29,15 @@
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   },
+  "scripts": {
+    "start": "webpack serve --mode development --env development --open --hot=only --progress",
+    "build": "webpack --mode production --env.production --progress",
+    "test": "echo \"Error: no tests specified\" && exit 1",
+    "lint": "eslint --fix src/**/*.ts{,x}",
+    "lint:fix": "eslint --fix src/**/*.ts{,x}"
+  },
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  },
-  "scripts": {
-    "start": "webpack serve --mode development --env env.development --open --hot --progress",
-    "build": "webpack --mode production --env.production --progress",
-    "lint": "eslint --fix src/**/*.ts{,x}",
-    "lint:fix": "eslint --fix src/**/*.ts{,x}"
   }
 }
