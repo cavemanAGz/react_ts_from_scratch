@@ -15,6 +15,10 @@ const HelloWorld: React.FC = () => {
             <p>
                 process.env.VERSION: <b>{process.env.VERSION}</b>
             </p>
+            <p>
+                process.env.REACT_APP_VERSION:
+                <b>{process.env.COMMIT_HASH != null ? process.env.COMMIT_HASH : "IDK???"}</b>
+            </p>
         </>
     )
 }
