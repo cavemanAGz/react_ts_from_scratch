@@ -12,3 +12,9 @@
 - `yarn add -D @babel/core @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread @babel/preset-env @babel/preset-react @babel/preset-typescript babel-loader  @babel/plugin-syntax-dynamic-import` 
 - `yarn add -D react-hot-loader` 
 - `yarn add -D @types/react-hot-loader`
+- `yarn add -D jest`
+- `yarn add -D @types/jest`
+- `yarn add -D enzyme enzyme-to-json `
+- `yarn add -D @types/enzyme`
+- `yarn add -D @types/enzyme-to-json`
+- `yarn add -D @wojtekmaj/enzyme-adapter-react-17`

@@ -3,7 +3,7 @@
         "sourceMap": true,
         "noImplicitAny": true,
         "module": "CommonJS",
-        "target": "ES5",
+        "target": "ESNext",
         "lib": [
             "ESNext",
             "DOM",
@@ -26,6 +26,8 @@
     },
     "include": [
         "./src",
-        "./webpack.config.ts"
+        "./webpack.config.ts",
+        "./jest.config.ts",
+        "test/setupEnzymeTests.ts"
     ]
 }
