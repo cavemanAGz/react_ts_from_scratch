@@ -4,12 +4,8 @@ const HelloWorld: React.FC = () => {
     return (
         <>
             <h1>Hello World</h1>
-
             <hr />
-
             <h2>Hello Caveman!</h2>
-
-            <h3>Environmental variables: FAKE!!!</h3>
             <p>
                 process.env.PRODUCTION: <b>{process.env.PRODUCTION.toString()}</b>
             </p>
