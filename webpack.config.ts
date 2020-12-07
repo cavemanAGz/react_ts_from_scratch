@@ -8,7 +8,7 @@ import { JsonPrettyPrint } from "./src/util/PrettyPrintJson";
 const webpackConfig = (env: any): Configuration => {
 
     console.log(`The env passed in is: ${JsonPrettyPrint(env)}`)
-    const commitHash = require('child_process').execSync('git rev-parse --short HEAD').toString().replace(/\n/g, '')
+    const commitHash = require('child_process').execSync('git rev-parse HEAD').toString().replace(/\n/g, '')
     return {
         entry: "./src/index.tsx",
         devtool: "inline-source-map",
