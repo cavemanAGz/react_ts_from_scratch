@@ -12,12 +12,15 @@ const webpackConfig = (env: any): Configuration => {
         entry: "./src/index.tsx",
         devtool: "inline-source-map",
         resolve: {
-            extensions: [".ts", ".tsx", ".js"],
+            extensions: [".ts", ".tsx", ".js", ".jsx", "json"],
             plugins: [new TsconfigPathsPlugin()]
         },
         output: {
             path: path.join(__dirname, "/dist"),
             filename: "build.js"
+        },
+        devServer: {
+            port: 3000
         },
         module: {
             rules: [
