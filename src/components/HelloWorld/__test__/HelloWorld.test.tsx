@@ -1,10 +1,10 @@
 import React from "react"
 import {shallow} from "enzyme"
 import HelloWorld from "../HelloWorld"
-import * as Enzyme from "enzyme"
-import Adapter from "@wojtekmaj/enzyme-adapter-react-17"
-
-Enzyme.configure({adapter: new Adapter()})
+// import * as Enzyme from "enzyme"
+// import Adapter from "@wojtekmaj/enzyme-adapter-react-17"
+//
+// Enzyme.configure({adapter: new Adapter()})
 describe("Testing the Hello World Component", () => {
     test("add 1 + 3 to equal 4", () => {
         expect(4).toBe(4)

@@ -1,37 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing the Hello World Component Renders Hellos Word Component 1`] = `
-<Fragment>
-  <h1>
-    Hello World
-  </h1>
-  <hr />
-  <h2>
-    Hello Caveman!
-  </h2>
-  <p>
-    process.env.PRODUCTION: 
-    <b>
-      TEST
-    </b>
-  </p>
-  <p>
-    process.env.NAME: 
-    <b>
-      React From Scratch *** TEST ***
-    </b>
-  </p>
-  <p>
-    process.env.VERSION: 
-    <b>
-      1.0.0
-    </b>
-  </p>
-  <p>
-    process.env.REACT_APP_VERSION:
-    <b>
-      c645248s525344
-    </b>
-  </p>
-</Fragment>
-`;
+exports[`Testing the Hello World Component Renders Hellos Word Component 1`] = `ShallowWrapper {}`;

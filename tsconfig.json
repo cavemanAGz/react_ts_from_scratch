@@ -28,6 +28,6 @@
         "./src",
         "./webpack.config.ts",
         "./jest.config.ts",
-        "test/setupEnzymeTests.ts"
+        "./setupEnzymeTests.ts"
     ]
 }
